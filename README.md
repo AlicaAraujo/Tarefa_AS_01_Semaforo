@@ -1,8 +1,8 @@
 <h1 align="center">🚦 Tarefa 1 - Simulção de Semáforo com Raspberry Pi Pico</h1>
 
 <h2 align="center">📝 Descrição do Projeto</h2>
-    
-    Este projeto simula um semáforo utilizando a Raspberry Pi Pico. O código alterna entre os estados (vermelho, amarelo e verde) a cada 3 segundos e exibe mensagens no console. Além disso, inclui testes automatizados para verificar a lógica de mudança de estados.
+
+Este projeto simula um semáforo utilizando a Raspberry Pi Pico. O código alterna entre os estados (vermelho, amarelo e verde) a cada 3 segundos e exibe mensagens no console. Além disso, inclui testes automatizados para verificar a lógica de mudança de estados.
 
 <h2 align="center">📂 Estrutura do Projeto</h2>
 
