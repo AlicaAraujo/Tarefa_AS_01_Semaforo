@@ -9,9 +9,13 @@ Este projeto simula um semáforo utilizando a Raspberry Pi Pico. O código alter
 O projeto é composto pelos arquivos comuns a um projeto Pico W, incluindo:
 
 - **bibliotecas/**: Pasta que contém os arquivos necessários para a estrutura do semáforo.
-  - `inicializacao.c` e `inicializacao.h`: Responsáveis pela inicialização dos LEDs e configuração do hardware.
-  - `semaforo.c` e `semaforo.h`: Gerenciam o funcionamento do semáforo, alternando os estados.
-  - `testes.c` e `testes.h`: Contém testes para validar a lógica do semáforo.
+  - `leds.c` e `leds.h`: Responsáveis pela inicialização e configuração dos LEDs.
+  - `semaforo.c` e `semaforo.h`:  Gerenciam a lógica de funcionamento do semáforo.
+  testes/: Contém os testes específicos para os LEDs.
+
+- **testeLeds.c e testeLeds.h**: Arquivos que testam o funcionamento dos LEDs do semáforo.
+  - `testeLeds.c` e `testeLeds.h`: Contém testes para validar o funcionamento dos LEDs.
+    
 - **principal/**: Contém o arquivo `main.c`, que gerencia a execução do sistema.
 - **build/**: Pasta gerada automaticamente durante o processo de compilação.
 - **Arquivos adicionais:**
