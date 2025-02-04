@@ -21,8 +21,11 @@ O projeto é composto pelos arquivos comuns a um projeto Pico W, incluindo:
 
 <h2 align="center">🔧 Requisitos</h2>
 - Raspberry Pi Pico
+
 - SDK do Pico instalado
+
 - Biblioteca `pico-sdk`
+
 - Ambiente de desenvolvimento configurado (VS Code recomendado)
 
 <h2 align="center">🖥️ Como Compilar e Executar</h2>
