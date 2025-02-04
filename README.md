@@ -11,9 +11,8 @@ O projeto é composto pelos arquivos comuns a um projeto Pico W, incluindo:
 - **bibliotecas/**: Pasta que contém os arquivos necessários para a estrutura do semáforo.
   - `leds.c` e `leds.h`: Responsáveis pela inicialização e configuração dos LEDs.
   - `semaforo.c` e `semaforo.h`:  Gerenciam a lógica de funcionamento do semáforo.
-  testes/: Contém os testes específicos para os LEDs.
 
-- **testeLeds.c e testeLeds.h**: Arquivos que testam o funcionamento dos LEDs do semáforo.
+- **testes/**: testes/: Contém os arquivos de teste.
   - `testeLeds.c` e `testeLeds.h`: Contém testes para validar o funcionamento dos LEDs.
     
 - **principal/**: Contém o arquivo `main.c`, que gerencia a execução do sistema.
