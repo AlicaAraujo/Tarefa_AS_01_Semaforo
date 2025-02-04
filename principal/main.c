@@ -10,14 +10,8 @@ Tarefa 1 - Semáforo - Aula Síncrona do dia 29/01/2025
 #include "pico/stdlib.h"
 #include "hardware/timer.h" //Incluindo biblioteca que gerencia temporizadores de hardware.
 #include "bibliotecas/semaforo.h"
-#include "bibliotecas/testes.h"
-#include "bibliotecas/inicializacao.h" // Header file para inicialização
-
-// Variável global para definir o estado (cor) do semáforo
-volatile int estado = 0;
-
-// Variável global que indica se o código está em modo de teste
-volatile bool em_teste = true; 
+#include "bibliotecas/leds.h" 
+#include "testes/testeLeds.h"
 
 //Função principal
 int main() {
@@ -27,7 +21,9 @@ int main() {
     inicializaLEDs();
 
     // Testes básicos
-    executaTestes();
+    testeLeds();
+
+    printf("🚦 Sistema de semáforo inicializado com sucesso!\n\n");
 
     // Configura o temporizador para mudar o semáforo a cada 3 segundos
     struct repeating_timer timer;

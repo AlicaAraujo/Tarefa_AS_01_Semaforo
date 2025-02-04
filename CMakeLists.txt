@@ -34,14 +34,15 @@ pico_sdk_init()
 add_executable(semaforo 
     principal/main.c 
     bibliotecas/semaforo.c 
-    bibliotecas/inicializacao.c 
-    bibliotecas/testes.c
+    bibliotecas/leds.c 
+    testes/testeLeds.c
 )
 
 # Include directories for header files
 target_include_directories(semaforo PRIVATE 
     ${CMAKE_CURRENT_LIST_DIR} 
     ${CMAKE_CURRENT_LIST_DIR}/bibliotecas
+    ${CMAKE_CURRENT_LIST_DIR}/tstes
 )
 
 # Set program name and version

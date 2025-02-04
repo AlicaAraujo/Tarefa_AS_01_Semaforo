@@ -1,6 +1,6 @@
 #ifndef TESTES_H
 #define TESTES_H
 
-void executaTestes();
+void testeLeds();
 
 #endif // TESTES_H
