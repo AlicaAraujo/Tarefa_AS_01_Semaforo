@@ -63,7 +63,7 @@ make test
 ```
 Os testes verificam a lógica de mudança de estados do semáforo.
 
-<h2 align="center">## 📅 Informações</h2>
+<h2 align="center">📅 Informações</h2>
 
 📌 **Autor(a):** Alícia Oliveira Araújo  
 📅 **Data da Aula:** 29/01/2025  
